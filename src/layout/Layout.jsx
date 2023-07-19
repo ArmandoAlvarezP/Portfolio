@@ -4,9 +4,11 @@ import { Footer } from "../components/Footer";
 export const Layout = () => {
   return (
     <>
+      <div className="bg-gradient-to-r from-indigo-800 to-indigo-950">
         <Header />
            <Outlet /> 
         <Footer />
+      </div>
     </>
   )
 }
