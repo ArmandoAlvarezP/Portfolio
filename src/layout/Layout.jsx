@@ -4,7 +4,7 @@ import { Footer } from "../components/Footer";
 export const Layout = () => {
   return (
     <>
-        <div className="bg-gradient-to-r from-indigo-800 to-indigo-950">      
+        <div className="bg-gradient-to-r from-slate-900 to-slate-950">      
             <Header />
                 <main className="container mx-auto mt-10">
                     <Outlet /> 
