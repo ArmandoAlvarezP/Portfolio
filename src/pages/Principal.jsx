@@ -6,7 +6,7 @@ export const Principal = () => {
         <div className="w-1/2">
             <Presentacion />
         </div>
-        <div className="md:w-1/2 w-full">
+        <div className="sm:w-1/2 w-full">
             <img src="/images/matrix.png" alt="matrix"/>
         </div>
     </div>
